@@ -1,7 +1,7 @@
 defmodule GRPC.Mixfile do
   use Mix.Project
 
-  @version "0.5.0-beta.1"
+  @version "0.5.1"
 
   def project do
     [
@@ -49,6 +49,7 @@ defmodule GRPC.Mixfile do
 
   defp package do
     %{
+      organization: "coinjar",
       maintainers: ["Bing Han"],
       licenses: ["Apache 2"],
       links: %{"GitHub" => "https://github.com/elixir-grpc/grpc"},
